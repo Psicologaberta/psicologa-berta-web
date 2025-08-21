@@ -83,3 +83,22 @@ h1{font-size:clamp(1.9rem,2.6vw,3rem); line-height:1.15; margin:.3rem 0 1rem}
   .grid-3{grid-template-columns:1fr}
   .two{grid-template-columns:1fr}
   .cards-row{grid-template-columns:1fr}
+  .top-social {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  display: flex;
+  gap: 14px;
+}
+
+.top-social .icon {
+  width: 22px;
+  height: 22px;
+  fill: #41968a;
+  transition: transform 0.2s;
+}
+
+.top-social a:hover .icon {
+  transform: scale(1.1);
+  fill: #2e6b63;
+}
