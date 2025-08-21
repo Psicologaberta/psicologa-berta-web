@@ -102,3 +102,27 @@ h1{font-size:clamp(1.9rem,2.6vw,3rem); line-height:1.15; margin:.3rem 0 1rem}
   transform: scale(1.1);
   fill: #2e6b63;
 }
+/* Header limpio y responsive */
+.site-header { background:#fcf8e9; border-bottom:1px solid #e7ebe9; }
+.site-header .container {
+  max-width:1100px; margin:0 auto; padding:12px 16px;
+  display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;
+}
+.brand { display:flex; align-items:center; gap:10px; }
+.logo { height:44px; width:auto; }
+.brand-text small { opacity:.8; font-size:.9rem; display:block; }
+
+/* Redes en el header */
+.social { display:flex; align-items:center; gap:14px; }
+.icon { width:22px; height:22px; fill:#41968a; transition:transform .15s ease; vertical-align:middle; }
+.social a:hover .icon { transform:scale(1.08); fill:#2e6b63; }
+
+/* Ajustes generales para secciones siguientes (por si el header empujaba) */
+.hero img, .hero-img { width:100%; max-height:420px; object-fit:cover; display:block; }
+.about { max-width:1100px; margin:24px auto; padding:0 16px; display:flex; gap:20px; align-items:center; flex-wrap:wrap; }
+.about .perfil { width:200px; height:200px; object-fit:cover; border-radius:50%; }
+
+/* Responsive */
+@media (max-width:720px){
+  .brand-text small{font-size:.85rem}
+}
