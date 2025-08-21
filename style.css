@@ -126,3 +126,12 @@ h1{font-size:clamp(1.9rem,2.6vw,3rem); line-height:1.15; margin:.3rem 0 1rem}
 @media (max-width:720px){
   .brand-text small{font-size:.85rem}
 }
+/* Header fijo arriba */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fcf8e9; /* tu beige claro */
+  border-bottom: 1px solid #e7ebe9;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
