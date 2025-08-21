@@ -66,7 +66,15 @@ h1{font-size:clamp(1.9rem,2.6vw,3rem); line-height:1.15; margin:.3rem 0 1rem}
 .clean li{margin:.35rem 0}
 
 /* Footer */
-.site-footer{border-top:1px solid var(--line); background:#fff; padding:16px 0; text-align:center}
+.footer{background:#fcf8e9;border-top:1px solid #e7ebe9;margin-top:40px}
+.footer-wrap{max-width:1100px;margin:0 auto;padding:18px;display:flex;gap:18px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.footer-logo{height:42px;margin-right:8px}
+.brand{display:flex;align-items:center;gap:10px}
+.social{display:flex;align-items:center;gap:14px}
+.icon{width:22px;height:22px;fill:#41968a;vertical-align:middle}
+.btn{background:#41968a;color:#fff;padding:8px 12px;border-radius:999px;text-decoration:none;font-weight:700;border:2px solid #41968a}
+.btn:hover{filter:brightness(.95)}
+.legal{font-size:.9rem;opacity:.8;text-align:center;padding:8px 18px 20px}
 
 /* Responsive */
 @media (max-width:920px){
@@ -75,4 +83,3 @@ h1{font-size:clamp(1.9rem,2.6vw,3rem); line-height:1.15; margin:.3rem 0 1rem}
   .grid-3{grid-template-columns:1fr}
   .two{grid-template-columns:1fr}
   .cards-row{grid-template-columns:1fr}
-}
