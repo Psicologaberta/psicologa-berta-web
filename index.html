@@ -293,26 +293,29 @@ index.html
   <h2>Contacto</h2>
   <p>Escríbeme y te responderé lo antes posible.</p>
 
-  <form name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/gracias.html">
-    <!-- Anti‑spam (oculto) -->
+  <form name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="gracias.html">
+    <!-- Campo oculto obligatorio para Netlify: el valor debe coincidir con el name del formulario -->
     <input type="hidden" name="form-name" value="contacto">
-    <p style="display:none;">
+
+    <!-- Honeypot anti‑spam (oculto) -->
+    <p hidden>
       <label>No rellenar: <input name="bot-field"></label>
     </p>
 
-    <label for="nombre">Nombre</label>
-    <input id="nombre" name="nombre" type="text" required>
-
-    <label for="email">Correo electrónico</label>
-    <input id="email" name="email" type="email" required>
-
-    <label for="mensaje">Mensaje</label>
-    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+    <p>
+      <label>Nombre: <input type="text" name="nombre" required></label>
+    </p>
+    <p>
+      <label>Correo electrónico: <input type="email" name="email" required></label>
+    </p>
+    <p>
+      <label>Mensaje:<br><textarea name="mensaje" rows="5" required></textarea></label>
+    </p>
 
     <label style="display:flex;gap:.5rem;align-items:flex-start;margin:.5rem 0 1rem;">
       <input type="checkbox" name="consent" required>
       <span>Acepto el tratamiento de mis datos para responder a mi consulta.
-        <a href="/privacidad.html" target="_blank" rel="noopener">Política de Privacidad</a>.
+        <a href="privacidad.html" target="_blank" rel="noopener">Política de Privacidad</a>.
       </span>
     </label>
 
