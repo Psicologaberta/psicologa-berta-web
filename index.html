@@ -118,8 +118,8 @@ index.html
     <h2>Contacto</h2>
     <p>Escríbeme y te responderé lo antes posible.</p>
 
-   <form name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/gracias/">
-
+   <form name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field"
+<p hidden><label>No rellenar: <input name="bot-field"></label></p>
       <label>Nombre
         <input type="text" name="nombre" required>
       </label>
@@ -162,6 +162,7 @@ index.html
   </footer>
 
   <!-- (TRUCO) FORMULARIO OCULTO PARA REGISTRO NETLIFY -->
+     <input type="hidden" name="form-name" value="contacto">
   <form name="contacto" method="POST" data-netlify="true" hidden>
     <input type="text" name="nombre">
     <input type="email" name="email">
