@@ -118,8 +118,9 @@ index.html
     <h2>Contacto</h2>
     <p>Escríbeme y te responderé lo antes posible.</p>
 
-   <form name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field"
-<p hidden><label>
+  <!-- Opción A: absoluta -->
+<form name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field"
+      action="https://psicologabertapad.netlify.app/gracias.html"> 
       <label>Nombre
         <input type="text" name="nombre" required>
       </label>
