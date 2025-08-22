@@ -119,8 +119,10 @@ index.html
     <p>Escríbeme y te responderé lo antes posible.</p>
 
   <!-- Opción A: absoluta -->
-<form name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field"
-      action="https://psicologabertapad.netlify.app/gracias.html"> 
+<form name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/gracias.html">
+  <input type="hidden" name="form-name" value="contacto">
+  ...
+</form>
       <label>Nombre
         <input type="text" name="nombre" required>
       </label>
@@ -170,13 +172,4 @@ index.html
     <textarea name="mensaje"></textarea>
   </form>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
-      <form name="contacto" method="POST" data-netlify="true" hidden>
-  <input type="text" name="nombre">
-  <input type="email" name="email">
-  <textarea name="mensaje"></textarea>
-</form>
+
