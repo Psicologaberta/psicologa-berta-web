@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Thank you · Psychologist Berta</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://psicologabertapad.netlify.app/en/thank-you.html">
+  <link rel="alternate" href="https://psicologabertapad.netlify.app/" hreflang="es">
+  <link rel="alternate" href="https://psicologabertapad.netlify.app/en/" hreflang="en">
+  <link rel="stylesheet" href="/style.css">
+  <style>.main{max-width:720px;margin:64px auto;padding:0 16px;text-align:center}</style>
+</head>
+<body>
+<header class="site-header"><div class="container">
+  <div class="brand"><img src="/logo.png" class="logo" alt=""><div class="brand-text"><strong>Psychologist Berta Permuy</strong><small>Health Psychology · Getxo & Online</small></div></div>
+  <nav class="top-nav"><a href="/">ES</a><span class="sep">|</span><a href="/en/">EN</a></nav>
+</div></header>
+<main class="main">
+  <h1>Thanks for your message!</h1>
+  <p>I have received your inquiry and will get back to you soon.</p>
+  <p><a class="btn" href="/en/">Back to home</a></p>
+</main>
+<footer class="site-footer"><div class="wrap">
+  <small>© <span id="y"></span> Psychologist Berta · <a href="/">Spanish site</a></small>
+</div></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
