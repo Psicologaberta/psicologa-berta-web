@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>English-speaking psychologist in Bilbao/Getxo · Adults & Child therapy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bilingual psychologist (Spanish/English) in Getxo & online. Anxiety, stress, grief and burnout. Adults, teens, families.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://psicologabertapad.netlify.app/en/">
+  <link rel="alternate" href="https://psicologabertapad.netlify.app/" hreflang="es">
+  <link rel="alternate" href="https://psicologabertapad.netlify.app/en/" hreflang="en">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="English-speaking psychologist in Bilbao/Getxo">
+  <meta property="og:description" content="Therapy for adults, teens and families. Online or in person.">
+  <meta property="og:url" content="https://psicologabertapad.netlify.app/en/">
+  <meta property="og:image" content="https://psicologabertapad.netlify.app/hero-terapia.jpg">
+  <link rel="stylesheet" href="/style.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Berta Permuy Arechaga",
+    "jobTitle":"Health Psychologist",
+    "knowsLanguage":["English","Spanish"],
+    "telephone":"+34 649 887 136",
+    "email":"mailto:bertapermuy.psicologa@gmail.com",
+    "image":"https://psicologabertapad.netlify.app/berta-perfil.jpg",
+    "url":"https://psicologabertapad.netlify.app/en/",
+    "address":{"@type":"PostalAddress","streetAddress":"Máximo Aguirre 16","addressLocality":"Getxo","postalCode":"48930","addressRegion":"Bizkaia","addressCountry":"ES"},
+    "sameAs":["https://www.instagram.com/psicologaberta/","https://www.facebook.com/psicologaberta","https://www.linkedin.com/in/bertapermuyarechaga/"]
+  }
+  </script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <div class="brand">
+      <img src="/logo.png" alt="Psychologist Berta" class="logo">
+      <div class="brand-text"><strong>Psychologist Berta Permuy</strong><small>Health Psychology · Getxo & Online</small></div>
+    </div>
+    <nav class="top-nav">
+      <a href="/" class="lang" aria-label="Versión en español">ES</a>
+      <span class="sep">|</span>
+      <a href="/en/" class="lang active" aria-label="English version">EN</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero"><img src="/hero-terapia.jpg" alt="Therapy space" class="hero-img"></section>
+
+<section class="about">
+  <img src="/berta-perfil.jpg" alt="Berta Permuy, psychologist" class="perfil">
+  <div>
+    <h1>Bilingual therapy (EN/ES) for adults, teens and families</h1>
+    <p>I'm <strong>Berta Permuy</strong>, a health psychologist with 20+ years of experience. I support processes related to anxiety, stress, grief and professional <strong>burnout</strong>, both online and in person in Getxo.</p>
+  </div>
+</section>
+
+<section class="services">
+  <h2>Services & fees</h2>
+  <ul class="cards">
+    <li><strong>Adult therapy</strong> · €60 / session</li>
+    <li><strong>Child & teen therapy</strong> · €60 / session</li>
+    <li><strong>Psychological assessment</strong> · €90 (3 sessions + report)</li>
+    <li><strong>Therapy in English</strong> · €60 / session</li>
+    <li><strong>Supervision for therapists</strong> · €70 / session</li>
+    <li><strong>Workshops</strong> · from €120 / group session</li>
+  </ul>
+  <p class="bonos"><em>Bundles:</em> 3 sessions €170 · 5 sessions €270</p>
+</section>
+
+<section class="block">
+  <div class="container-narrow">
+    <h2>Testimonials</h2>
+    <div class="quotes">
+      <blockquote>“I arrived anxious and stuck. I found tools and calm.”<br><small>— A., 36</small></blockquote>
+      <blockquote>“As a doctor I couldn’t stop. Therapy helped me set boundaries.”<br><small>— J., 42</small></blockquote>
+      <blockquote>“My daughter regulates emotions better and home feels calmer.”<br><small>— M.’s family, 11</small></blockquote>
+    </div>
+    <p class="center" style="margin-top:12px">
+      <a class="btn secondary" href="https://share.google/p9oqccxWZ3w8UcgET" target="_blank" rel="noopener">⭐ Read Google reviews</a>
+    </p>
+  </div>
+</section>
+
+<section class="resources">
+  <h2>Free resources</h2>
+  <p><a class="btn" href="/guia-5-claves-colapso.pdf" target="_blank" rel="noopener">📥 5 keys to avoid emotional collapse (ES)</a></p>
+</section>
+
+<section id="contact" class="contacto">
+  <h2>Contact</h2>
+  <p>Write to me and I’ll get back to you as soon as possible.</p>
+  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/en/thank-you.html">
+    <input type="hidden" name="form-name" value="contact">
+    <p hidden><label>Do not fill: <input name="bot-field"></label></p>
+    <label>Name <input type="text" name="name" required></label>
+    <label>Email <input type="email" name="email" required></label>
+    <label>Message <textarea name="message" rows="5" required></textarea></label>
+    <label class="consent"><input type="checkbox" name="consent" required> <span>I accept data processing to answer my inquiry. <a href="/privacidad.html" target="_blank" rel="noopener">Privacy Policy (ES)</a>.</span></label>
+    <button type="submit" class="btn">Send message</button>
+  </form>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <small>© <span id="year"></span> Psychologist Berta Permuy · <a href="/">Spanish site</a></small>
+  </div>
+</footer>
+
+<!-- Hidden forms (build detection) -->
+<form name="contact" method="POST" data-netlify="true" hidden>
+  <input type="text" name="name"><input type="email" name="email"><textarea name="message"></textarea>
+</form>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
