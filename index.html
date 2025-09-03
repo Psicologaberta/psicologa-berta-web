@@ -1,58 +1,37 @@
-index.html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Psicóloga Berta Permuy · Getxo & Online</title>
+  <title>Psicóloga infantil y de adultos en Getxo · Terapia en español e inglés</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Psicóloga sanitaria especializada en ansiedad, estrés y burnout. Terapia en español e inglés. Presencial en Getxo y online.">
-  <!-- Si ya tienes style.css, se aplicará; si no, el CSS interno de abajo es suficiente -->
+  <meta name="description" content="Psicóloga sanitaria en Getxo y online. Ansiedad, estrés, duelo y burnout. Atención infantil, adultos y expats. Sesiones en español e inglés.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://psicologabertapad.netlify.app/">
+  <link rel="alternate" href="https://psicologabertapad.netlify.app/" hreflang="es">
+  <link rel="alternate" href="https://psicologabertapad.netlify.app/en/" hreflang="en">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Psicóloga en Getxo · Español e inglés">
+  <meta property="og:description" content="Ansiedad, estrés, duelo, burnout. Terapia infantil y adultos. Online/presencial.">
+  <meta property="og:url" content="https://psicologabertapad.netlify.app/">
+  <meta property="og:image" content="https://psicologabertapad.netlify.app/hero-terapia.jpg">
   <link rel="stylesheet" href="/style.css">
-  <style>
-    :root{--teal:#41968a;--mint:#a4c6b9;--beige:#fcf8e9;--ink:#233;--line:#e7ebe9}
-    *{box-sizing:border-box} html,body{margin:0;padding:0}
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
-    /* Header */
-    .site-header{position:sticky;top:0;z-index:1000;background:var(--beige);border-bottom:1px solid var(--line);box-shadow:0 2px 4px rgba(0,0,0,.03)}
-    .container{max-width:1100px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
-    .brand{display:flex;align-items:center;gap:10px}
-    .logo{height:44px;width:auto;display:block}
-    .brand-text small{opacity:.8;font-size:.9rem;display:block}
-    .social{display:flex;align-items:center;gap:14px}
-    .icon{width:22px;height:22px;fill:var(--teal);transition:transform .15s ease}
-    .social a:hover .icon{transform:scale(1.08);fill:#2e6b63}
-    /* Secciones */
-    .hero-img{width:100%;max-height:420px;object-fit:cover;display:block}
-    .about{max-width:1100px;margin:24px auto;padding:0 16px;display:flex;gap:20px;align-items:center;flex-wrap:wrap}
-    .perfil{width:200px;height:200px;object-fit:cover;border-radius:50%}
-    .services,.resources{max-width:900px;margin:24px auto;padding:0 16px}
-    .cards{list-style:none;padding:0;margin:12px 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
-    .cards li{border:1px solid var(--line);border-radius:12px;padding:10px;background:#fff}
-    .bonos{max-width:900px;margin:0 auto;padding:0 16px;color:#444}
-    .block{padding:28px 16px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-    .container-narrow{max-width:900px;margin:0 auto}
-    .quotes{display:grid;gap:12px}
-    .center{text-align:center}
-    /* Botones (y fallback inline) */
-    .btn{display:inline-block;background:var(--teal);color:#fff;text-decoration:none;border:2px solid var(--teal);border-radius:999px;padding:10px 16px;font-weight:700}
-    .btn.secondary{background:transparent;color:var(--teal)}
-    .btn:hover{filter:brightness(.95)}
-    /* Formulario */
-    .contacto{max-width:720px;margin:32px auto;padding:0 16px}
-    .contacto form{display:grid;gap:12px}
-    .contacto label{display:grid;gap:6px;font-weight:600}
-    .contacto input,.contacto textarea{padding:10px;border:1px solid var(--line);border-radius:10px;font:inherit}
-    .contacto .consent{display:flex;gap:.6rem;align-items:flex-start;font-weight:400}
-    .contacto button{justify-self:start}
-    /* Footer */
-    .site-footer{border-top:1px solid var(--line);background:#fff;margin-top:32px}
-    .wrap{max-width:1100px;margin:0 auto;padding:16px;text-align:center}
-    .footer-social{margin-top:6px;opacity:.9}
-    @media (max-width:720px){.brand-text small{font-size:.85rem}}
-  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Berta Permuy Arechaga",
+    "jobTitle":"Psicóloga Sanitaria",
+    "knowsLanguage":["es","en"],
+    "telephone":"+34 649 887 136",
+    "email":"mailto:bertapermuy.psicologa@gmail.com",
+    "image":"https://psicologabertapad.netlify.app/berta-perfil.jpg",
+    "url":"https://psicologabertapad.netlify.app/",
+    "address":{"@type":"PostalAddress","streetAddress":"Máximo Aguirre 16","addressLocality":"Getxo","postalCode":"48930","addressRegion":"Bizkaia","addressCountry":"ES"},
+    "sameAs":["https://www.instagram.com/psicologaberta/","https://www.facebook.com/psicologaberta","https://www.linkedin.com/in/bertapermuyarechaga/"]
+  }
+  </script>
 </head>
 <body>
-
   <!-- HEADER -->
   <header class="site-header">
     <div class="container">
@@ -63,16 +42,10 @@ index.html
           <small>Psicología Sanitaria · Getxo & Online</small>
         </div>
       </div>
-      <nav class="social">
-        <a href="https://www.instagram.com/psicologaberta/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
-          <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.9.2 2.4.4.6.2 1 .4 1.4.8.4.4.6.8.8 1.4.2.5.3 1.2.4 2.4.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.9-.4 2.4a3.2 3.2 0 0 1-.8 1.4 3.2 3.2 0 0 1-1.4.8c-.5.2-1.2.3-2.4.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.9-.2-2.4-.4a3.2 3.2 0 0 1-1.4-.8 3.2 3.2 0 0 1-.8-1.4c-.2-.5-.3-1.2-.4-2.4C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.2-1.9.4-2.4.2-.6.4-1 .8-1.4.4-.4.8-.6 1.4-.8.5-.2 1.2-.3 2.4-.4C8.4 2.2 8.8 2.2 12 2.2Zm0 3c-3.1 0-3.5 0-4.7.1-1 0-1.6.2-2 .3-.5.2-.8.4-1.1.8-.3.3-.6.6-.8 1.1-.1.4-.3 1-.3 2-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c0 1 .2 1.6.3 2 .2.5.4.8.8 1.1.3.3.6.6 1.1.8.4.1 1 .3 2 .3 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1 0 1.6-.2 2-.3.5-.2.8-.4 1.1-.8.3-.3.6-.6.8-1.1.1-.4.3-1 .3-2 .1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c0-1-.2-1.6-.3-2-.2-.5-.4-.8-.8-1.1-.3-.3-.6-.6-1.1-.8-.4-.1-1-.3-2-.3-1.2-.1-1.6-.1-4.7-.1Zm0 2.8a6.8 6.8 0 1 1 0 13.6 6.8 6.8 0 0 1 0-13.6Zm0 2.2a4.6 4.6 0 1 0 0 9.2 4.6 4.6 0 0 0 0-9.2Zm6-1.6a1.3 1.3 0 1 0 0 2.6 1.3 1.3 0 0 0 0-2.6Z"/></svg>
-        </a>
-        <a href="https://www.facebook.com/psicologaberta" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">
-          <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M13.5 22v-8.2H16l.4-3.2h-2.9V8.2c0-.9.3-1.5 1.6-1.5H16V3.8c-.3 0-1.2-.1-2.1-.1-2.1 0-3.6 1.3-3.6 3.7v2.1H8v3.2h2.3V22h3.2Z"/></svg>
-        </a>
-        <a href="https://www.linkedin.com/in/bertapermuyarechaga/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
-          <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0 0-5Zm.12 5.7H2.2V22h2.9V9.2Zm6.3 0H8.4V22h2.9v-6.9c0-1.8.9-2.9 2.4-2.9 1.4 0 2.1.9 2.1 2.9V22h2.9v-7.9c0-3.6-1.9-5.3-4.4-5.3-2 0-3 1.1-3.5 2.1h-.1V9.2Z"/></svg>
-        </a>
+      <nav class="top-nav">
+        <a href="/" class="lang active" aria-label="Versión en español">ES</a>
+        <span class="sep">|</span>
+        <a href="/en/" class="lang" aria-label="English version">EN</a>
       </nav>
     </div>
   </header>
@@ -86,8 +59,8 @@ index.html
   <section class="about">
     <img src="/berta-perfil.jpg" alt="Berta Permuy, psicóloga sanitaria" class="perfil">
     <div>
-      <h2>Sobre mí</h2>
-      <p>Soy <strong>Berta Permuy</strong>, psicóloga sanitaria con más de 20 años de experiencia. Acompaño procesos de ansiedad, estrés, duelo y <strong>burnout</strong> profesional. Trabajo en español e inglés, presencial en Getxo y online.</p>
+      <h1>Psicología cercana y bilingüe (ES/EN)</h1>
+      <p>Soy <strong>Berta Permuy</strong>, psicóloga sanitaria con más de 20 años de experiencia. Acompaño procesos de ansiedad, estrés, duelo y <strong>burnout</strong> profesional. Trabajo con adultos, adolescentes y familias. Sesiones en español e inglés, presencial en Getxo y online.</p>
     </div>
   </section>
 
@@ -95,22 +68,14 @@ index.html
   <section class="services">
     <h2>Servicios y tarifas</h2>
     <ul class="cards">
-      <li><strong>Terapia individual</strong> · 60 €/sesión</li>
-      <li><strong>Infantojuvenil</strong> · 60 €/sesión</li>
+      <li><strong>Terapia individual (adultos)</strong> · 60 €/sesión</li>
+      <li><strong>Terapia infantojuvenil</strong> · 60 €/sesión</li>
       <li><strong>Evaluación psicológica</strong> · 90 € (3 sesiones + informe)</li>
       <li><strong>Terapia en inglés</strong> · 60 €/sesión</li>
       <li><strong>Supervisión a psicólogos</strong> · 70 €/sesión</li>
       <li><strong>Talleres</strong> · desde 120 € sesión grupal</li>
     </ul>
     <p class="bonos"><em>Bonos:</em> 3 sesiones 170 € · 5 sesiones 270 €</p>
-  </section>
-
-  <!-- BLOQUE BURNOUT -->
-  <section class="block">
-    <div class="container-narrow">
-      <h2>Estrés y burnout profesional</h2>
-      <p>Acompaño a perfiles de alta exigencia (sanitarios, docentes, psicólogos, directivos y emergencias). Trabajamos regulación emocional, límites, culpa, propósito y recuperación del equilibrio personal y laboral.</p>
-    </div>
   </section>
 
   <!-- TESTIMONIOS -->
@@ -128,56 +93,25 @@ index.html
     </div>
   </section>
 
-  <!-- RECURSOS: GUÍA -->
+  <!-- RECURSOS -->
   <section class="resources">
     <h2>Recursos gratuitos</h2>
-    <p>
-      <a class="btn" href="/guia-5-claves-colapso.pdf" target="_blank" rel="noopener">
-        📥 5 claves para evitar el colapso emocional
-      </a>
-    </p>
+    <p><a class="btn" href="/guia-5-claves-colapso.pdf" target="_blank" rel="noopener">📥 5 claves para evitar el colapso emocional</a></p>
   </section>
 
-  <!-- CONTACTO (NETLIFY + GRACIAS DENTRO DEL INDEX) -->
+  <!-- CONTACTO (Netlify Forms clásico) -->
   <section id="contacto" class="contacto">
     <h2>Contacto</h2>
     <p>Escríbeme y te responderé lo antes posible.</p>
-
-    <form name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field" onsubmit="handleNetlifySubmit(event)">
-      <!-- Netlify necesita este hidden con el mismo nombre del formulario -->
+    <form name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/gracias.html">
       <input type="hidden" name="form-name" value="contacto">
-      <!-- Honeypot anti‑spam -->
       <p hidden><label>No rellenar: <input name="bot-field"></label></p>
-
-      <label>Nombre
-        <input type="text" name="nombre" required>
-      </label>
-
-      <label>Correo electrónico
-        <input type="email" name="email" required>
-      </label>
-
-      <label>Mensaje
-        <textarea name="mensaje" rows="5" required></textarea>
-      </label>
-
-      <label class="consent">
-        <input type="checkbox" name="consent" required>
-        <span>Acepto el tratamiento de mis datos para responder a mi consulta.
-          <a href="/privacidad.html" target="_blank" rel="noopener">Política de Privacidad</a>.
-        </span>
-      </label>
-
+      <label>Nombre <input type="text" name="nombre" required></label>
+      <label>Correo electrónico <input type="email" name="email" required></label>
+      <label>Mensaje <textarea name="mensaje" rows="5" required></textarea></label>
+      <label class="consent"><input type="checkbox" name="consent" required> <span>Acepto el tratamiento de mis datos. <a href="/privacidad.html" target="_blank" rel="noopener">Política de Privacidad</a>.</span></label>
       <button type="submit" class="btn">Enviar mensaje</button>
-      <p id="form-msg" style="margin:0;color:#2e6b63;display:none">Enviando…</p>
     </form>
-  </section>
-
-  <!-- “Página” de GRACIAS dentro del propio index -->
-  <section id="gracias" class="contacto" hidden>
-    <h2>¡Gracias por tu mensaje!</h2>
-    <p>He recibido tu consulta y te responderé lo antes posible.</p>
-    <p><a class="btn" href="/">Volver a la página principal</a></p>
   </section>
 
   <!-- FOOTER -->
@@ -185,9 +119,9 @@ index.html
     <div class="wrap">
       <small>
         © <span id="year"></span> Psicóloga Berta Permuy ·
-        <a href="/privacidad.html">Política de Privacidad</a> ·
-        <a href="/cookies.html">Política de Cookies</a> ·
-        <a href="/aviso-legal.html">Aviso Legal</a>
+        <a href="/privacidad.html">Privacidad</a> ·
+        <a href="/cookies.html">Cookies</a> ·
+        <a href="/aviso-legal.html">Aviso legal</a>
       </small>
       <div class="footer-social">
         <a href="https://www.instagram.com/psicologaberta/" target="_blank" rel="noopener">Instagram</a> ·
@@ -197,44 +131,10 @@ index.html
     </div>
   </footer>
 
-  <!-- (TRUCO) Formulario oculto para que Netlify lo detecte en el build -->
+  <!-- Form oculto para detección en build -->
   <form name="contacto" method="POST" data-netlify="true" hidden>
-    <input type="text" name="nombre">
-    <input type="email" name="email">
-    <textarea name="mensaje"></textarea>
+    <input type="text" name="nombre"><input type="email" name="email"><textarea name="mensaje"></textarea>
   </form>
-
-  <script>
-    // Año dinámico
-    document.getElementById('year').textContent = new Date().getFullYear();
-
-    // Envío a Netlify por JS + gracias dentro del index (sin usar gracias.html)
-    function handleNetlifySubmit(event) {
-      event.preventDefault();
-      const form = event.target;
-      const msg = document.getElementById('form-msg');
-      msg.style.display = 'block';
-      const data = new FormData(form);
-      // Importante: formato x-www-form-urlencoded para Netlify Forms
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(data).toString()
-      })
-      .then(() => {
-        msg.style.display = 'none';
-        form.reset();
-        // Ocultamos el formulario y mostramos la “página” de gracias
-        form.closest('section').hidden = true;
-        document.getElementById('gracias').hidden = false;
-        // Opcional: desplazar a la zona de gracias
-        document.getElementById('gracias').scrollIntoView({behavior:'smooth'});
-      })
-      .catch(() => {
-        msg.style.display = 'none';
-        alert("No se pudo enviar. Inténtalo de nuevo en unos minutos.");
-      });
-    }
-  </script>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
 </body>
 </html>
