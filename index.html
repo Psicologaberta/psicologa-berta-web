@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Psicóloga infantil y de adultos en Getxo · Terapia en español e inglés</title>
+  <title>Psicóloga infantil y de adultos en Getxo · Español e inglés</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Psicóloga sanitaria en Getxo y online. Ansiedad, estrés, duelo y burnout. Atención infantil, adultos y expats. Sesiones en español e inglés.">
   <meta name="robots" content="index,follow">
@@ -15,126 +15,110 @@
   <meta property="og:url" content="https://psicologabertapad.netlify.app/">
   <meta property="og:image" content="https://psicologabertapad.netlify.app/hero-terapia.jpg">
   <link rel="stylesheet" href="/style.css">
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"Person",
-    "name":"Berta Permuy Arechaga",
-    "jobTitle":"Psicóloga Sanitaria",
-    "knowsLanguage":["es","en"],
-    "telephone":"+34 649 887 136",
-    "email":"mailto:bertapermuy.psicologa@gmail.com",
-    "image":"https://psicologabertapad.netlify.app/berta-perfil.jpg",
-    "url":"https://psicologabertapad.netlify.app/",
-    "address":{"@type":"PostalAddress","streetAddress":"Máximo Aguirre 16","addressLocality":"Getxo","postalCode":"48930","addressRegion":"Bizkaia","addressCountry":"ES"},
-    "sameAs":["https://www.instagram.com/psicologaberta/","https://www.facebook.com/psicologaberta","https://www.linkedin.com/in/bertapermuyarechaga/"]
-  }
-  </script>
 </head>
 <body>
-  <!-- HEADER -->
-  <header class="site-header">
-    <div class="container">
-      <div class="brand">
-        <img src="/logo.png" alt="Psicóloga Berta" class="logo">
-        <div class="brand-text">
-          <strong>Psicóloga Berta Permuy</strong>
-          <small>Psicología Sanitaria · Getxo & Online</small>
-        </div>
-      </div>
-      <nav class="top-nav">
-        <a href="/" class="lang active" aria-label="Versión en español">ES</a>
-        <span class="sep">|</span>
-        <a href="/en/" class="lang" aria-label="English version">EN</a>
-      </nav>
-    </div>
-  </header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <img src="/hero-terapia.jpg" alt="Espacio terapéutico" class="hero-img">
-  </section>
-
-  <!-- SOBRE MÍ -->
-  <section class="about">
-    <img src="/berta-perfil.jpg" alt="Berta Permuy, psicóloga sanitaria" class="perfil">
-    <div>
-      <h1>Psicología cercana y bilingüe (ES/EN)</h1>
-      <p>Soy <strong>Berta Permuy</strong>, psicóloga sanitaria con más de 20 años de experiencia. Acompaño procesos de ansiedad, estrés, duelo y <strong>burnout</strong> profesional. Trabajo con adultos, adolescentes y familias. Sesiones en español e inglés, presencial en Getxo y online.</p>
-    </div>
-  </section>
-
-  <!-- SERVICIOS -->
-  <section class="services">
-    <h2>Servicios y tarifas</h2>
-    <ul class="cards">
-      <li><strong>Terapia individual (adultos)</strong> · 60 €/sesión</li>
-      <li><strong>Terapia infantojuvenil</strong> · 60 €/sesión</li>
-      <li><strong>Evaluación psicológica</strong> · 90 € (3 sesiones + informe)</li>
-      <li><strong>Terapia en inglés</strong> · 60 €/sesión</li>
-      <li><strong>Supervisión a psicólogos</strong> · 70 €/sesión</li>
-      <li><strong>Talleres</strong> · desde 120 € sesión grupal</li>
-    </ul>
-    <p class="bonos"><em>Bonos:</em> 3 sesiones 170 € · 5 sesiones 270 €</p>
-  </section>
-
-  <!-- TESTIMONIOS -->
-  <section class="block">
-    <div class="container-narrow">
-      <h2>Testimonios</h2>
-      <div class="quotes">
-        <blockquote>“Llegué con ansiedad y bloqueo. Encontré herramientas y calma. Hoy me siento más yo.”<br><small>— A., 36</small></blockquote>
-        <blockquote>“Como médico me costaba parar. La terapia me ayudó a poner límites y recuperar el equilibrio.”<br><small>— J., 42</small></blockquote>
-        <blockquote>“Mi hija gestiona mejor sus emociones y en casa estamos más conectados.”<br><small>— Familia de M., 11</small></blockquote>
-      </div>
-      <p class="center" style="margin-top:12px">
-        <a class="btn secondary" href="https://share.google/p9oqccxWZ3w8UcgET" target="_blank" rel="noopener">⭐ Ver reseñas en Google</a>
-      </p>
-    </div>
-  </section>
-
-  <!-- RECURSOS -->
-  <section class="resources">
-    <h2>Recursos gratuitos</h2>
-    <p><a class="btn" href="/guia-5-claves-colapso.pdf" target="_blank" rel="noopener">📥 5 claves para evitar el colapso emocional</a></p>
-  </section>
-
-  <!-- CONTACTO (Netlify Forms clásico) -->
-  <section id="contacto" class="contacto">
-    <h2>Contacto</h2>
-    <p>Escríbeme y te responderé lo antes posible.</p>
-    <form name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/gracias.html">
-      <input type="hidden" name="form-name" value="contacto">
-      <p hidden><label>No rellenar: <input name="bot-field"></label></p>
-      <label>Nombre <input type="text" name="nombre" required></label>
-      <label>Correo electrónico <input type="email" name="email" required></label>
-      <label>Mensaje <textarea name="mensaje" rows="5" required></textarea></label>
-      <label class="consent"><input type="checkbox" name="consent" required> <span>Acepto el tratamiento de mis datos. <a href="/privacidad.html" target="_blank" rel="noopener">Política de Privacidad</a>.</span></label>
-      <button type="submit" class="btn">Enviar mensaje</button>
-    </form>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="wrap">
-      <small>
-        © <span id="year"></span> Psicóloga Berta Permuy ·
-        <a href="/privacidad.html">Privacidad</a> ·
-        <a href="/cookies.html">Cookies</a> ·
-        <a href="/aviso-legal.html">Aviso legal</a>
-      </small>
-      <div class="footer-social">
-        <a href="https://www.instagram.com/psicologaberta/" target="_blank" rel="noopener">Instagram</a> ·
-        <a href="https://www.facebook.com/psicologaberta" target="_blank" rel="noopener">Facebook</a> ·
-        <a href="https://www.linkedin.com/in/bertapermuyarechaga/" target="_blank" rel="noopener">LinkedIn</a>
+<header class="site-header">
+  <div class="container">
+    <div class="brand">
+      <img src="/logo.png" alt="Psicóloga Berta" class="logo">
+      <div class="brand-text">
+        <strong>Psicóloga Berta Permuy</strong>
+        <small>Psicología Sanitaria · Getxo & Online</small>
       </div>
     </div>
-  </footer>
+    <nav class="top-nav">
+      <a href="/" class="lang active" aria-label="Versión en español">ES</a>
+      <span class="sep">|</span>
+      <a href="/en/" class="lang" aria-label="English version">EN</a>
+    </nav>
+  </div>
+</header>
 
-  <!-- Form oculto para detección en build -->
-  <form name="contacto" method="POST" data-netlify="true" hidden>
-    <input type="text" name="nombre"><input type="email" name="email"><textarea name="mensaje"></textarea>
+<section class="hero">
+  <img src="/hero-terapia.jpg" alt="Espacio terapéutico" class="hero-img">
+</section>
+
+<section class="about">
+  <img src="/berta-perfil.jpg" alt="Berta Permuy, psicóloga sanitaria" class="perfil">
+  <div>
+    <h1>Psicología cercana y bilingüe (ES/EN)</h1>
+    <p>Soy <strong>Berta Permuy</strong>, psicóloga sanitaria con más de 20 años de experiencia. Acompaño procesos de ansiedad, estrés, duelo y <strong>burnout</strong> profesional. Trabajo con adultos, adolescentes y familias. Sesiones en español e inglés, presencial en Getxo y online.</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Servicios y <span style="white-space:nowrap">precios</span></h2>
+  <!-- ⚠️ CAMBIA AQUÍ TUS PRECIOS REALES -->
+  <ul class="cards">
+    <li><strong>Terapia individual (adultos)</strong> · <b>XX €</b>/sesión</li>
+    <li><strong>Terapia infantojuvenil</strong> · <b>XX €</b>/sesión</li>
+    <li><strong>Evaluación psicológica</strong> · <b>XX €</b> (3 sesiones + informe)</li>
+    <li><strong>Terapia en inglés</strong> · <b>XX €</b>/sesión</li>
+    <li><strong>Supervisión a psicólogos</strong> · <b>XX €</b>/sesión</li>
+    <li><strong>Talleres</strong> · desde <b>XX €</b> sesión grupal</li>
+  </ul>
+  <p class="center"><em>Bonos:</em> <b>3 sesiones: XX €</b> · <b>5 sesiones: XX €</b></p>
+  <!-- ⚠️ FIN ZONA DE PRECIOS -->
+</section>
+
+<section class="block">
+  <div class="container-narrow">
+    <h2>Testimonios</h2>
+    <div class="quotes">
+      <blockquote>“Llegué con ansiedad y bloqueo. Encontré herramientas y calma.”<br><small>— A., 36</small></blockquote>
+      <blockquote>“Como médico me costaba parar. La terapia me ayudó a poner límites.”<br><small>— J., 42</small></blockquote>
+      <blockquote>“Mi hija regula mejor sus emociones y en casa hay más calma.”<br><small>— Familia de M., 11</small></blockquote>
+    </div>
+    <p class="center" style="margin-top:12px">
+      <a class="btn secondary" href="https://share.google/p9oqccxWZ3w8UcgET" target="_blank" rel="noopener">⭐ Ver reseñas en Google</a>
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Recursos gratuitos</h2>
+  <p class="center">
+    <a class="btn" href="/guia-5-claves-colapso.pdf" target="_blank" rel="noopener">
+      📥 5 claves para evitar el colapso emocional
+    </a>
+  </p>
+</section>
+
+<section id="contacto" class="contacto">
+  <h2>Contacto</h2>
+  <p>Escríbeme y te responderé lo antes posible.</p>
+  <form name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/gracias.html">
+    <input type="hidden" name="form-name" value="contacto">
+    <p hidden><label>No rellenar: <input name="bot-field"></label></p>
+    <label>Nombre <input type="text" name="nombre" required></label>
+    <label>Correo electrónico <input type="email" name="email" required></label>
+    <label>Mensaje <textarea name="mensaje" rows="5" required></textarea></label>
+    <label class="consent"><input type="checkbox" name="consent" required> <span>Acepto el tratamiento de mis datos. <a href="/privacidad.html" target="_blank" rel="noopener">Política de Privacidad</a>.</span></label>
+    <button type="submit" class="btn">Enviar mensaje</button>
   </form>
-  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <small>
+      © <span id="year"></span> Psicóloga Berta Permuy ·
+      <a href="/privacidad.html">Privacidad</a> ·
+      <a href="/cookies.html">Cookies</a> ·
+      <a href="/aviso-legal.html">Aviso legal</a>
+    </small>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/psicologaberta/" target="_blank" rel="noopener">Instagram</a> ·
+      <a href="https://www.facebook.com/psicologaberta" target="_blank" rel="noopener">Facebook</a> ·
+      <a href="https://www.linkedin.com/in/bertapermuyarechaga/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Form oculto (detección build) -->
+<form name="contacto" method="POST" data-netlify="true" hidden>
+  <input type="text" name="nombre"><input type="email" name="email"><textarea name="mensaje"></textarea>
+</form>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
 </body>
 </html>
