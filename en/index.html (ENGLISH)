@@ -42,19 +42,50 @@
   </div>
 </section>
 
+<!-- FEES -->
 <section class="section">
-  <h2>Services & <span style="white-space:nowrap">fees</span></h2>
-  <!-- ⚠️ Match prices with the Spanish page -->
+  <h2>Services, fees & payment</h2>
+
   <ul class="cards">
-    <li><strong>Adult therapy</strong> · <b>XX €</b> / session</li>
-    <li><strong>Child & teen therapy</strong> · <b>XX €</b> / session</li>
-    <li><strong>Psychological assessment</strong> · <b>XX €</b> (3 sessions + report)</li>
-    <li><strong>Therapy in English</strong> · <b>XX €</b> / session</li>
-    <li><strong>Supervision for therapists</strong> · <b>XX €</b> / session</li>
-    <li><strong>Workshops</strong> · from <b>XX €</b> / group session</li>
+    <li><strong>Individual psychotherapy · 45 min</strong><br>
+      <b>€60</b> (online or in-office) · <b>€70</b> (home visit)</li>
+
+    <li><strong>Individual psychotherapy · 60 min</strong><br>
+      <b>€60</b> (online or in-office) · <b>€70</b> (home visit)</li>
+
+    <li><strong>Clinical reports</strong><br>
+      General report: <b>€60</b> · <u>Initial report</u>: <b>€140</b></li>
   </ul>
-  <p class="center"><em>Bundles:</em> <b>3 sessions: XX €</b> · <b>5 sessions: XX €</b></p>
-  <!-- ⚠️ END prices -->
+
+  <p><strong>Payment:</strong> after each session or monthly direct debit.  
+  <strong>Bundles</strong> are paid upfront when purchased. Sessions are charged by <em>service</em>, not by time.</p>
+  <p><strong>Cancellation policy:</strong> if you do not attend and do not notify at least 24 hours in advance, the session will be charged (unless justified cause/force majeure).</p>
+</section>
+
+<!-- BUNDLES -->
+<section class="section">
+  <h2>Bundles & discounts</h2>
+  <ul class="cards">
+    <li><strong>Evaluation Bundle</strong><br>
+      5 assessment sessions + clinical report<br>
+      <s>€450</s> → <b>€360</b> (20% off)</li>
+
+    <li><strong>4-session Bundle</strong><br>
+      4 sessions (1/month during 4 months)<br>
+      <s>€240</s> → <b>€230</b> (10% off)</li>
+
+    <li><strong>5-session Bundle</strong><br>
+      5 × 60-min sessions<br>
+      <s>€300</s> → <b>€275</b> (€55/session)</li>
+
+    <li><strong>10-session Bundle</strong><br>
+      10 × 60-min sessions<br>
+      <s>€600</s> → <b>€540</b> (€54/session)</li>
+
+    <li><strong>Family Bundle (3 months)</strong><br>
+      6 sessions (2/month)<br>
+      <s>€360</s> → <b>€330</b> (€55/session)</li>
+  </ul>
 </section>
 
 <section class="block">
