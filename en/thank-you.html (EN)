@@ -4,9 +4,6 @@
   <meta charset="utf-8">
   <title>Thank you · Psychologist Berta</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="canonical" href="https://psicologabertapad.netlify.app/en/thank-you.html">
-  <link rel="alternate" href="https://psicologabertapad.netlify.app/" hreflang="es">
-  <link rel="alternate" href="https://psicologabertapad.netlify.app/en/" hreflang="en">
   <link rel="stylesheet" href="/style.css">
   <style>.main{max-width:720px;margin:64px auto;padding:0 16px;text-align:center}</style>
 </head>
@@ -21,7 +18,7 @@
   <p><a class="btn" href="/en/">Back to home</a></p>
 </main>
 <footer class="site-footer"><div class="wrap">
-  <small>© <span id="y"></span> Psychologist Berta · <a href="/">Spanish site</a></small>
+  <small>© <span id="y"></span> Psychologist Berta · <a href="/en/privacy-policy.html">Privacy</a> · <a href="/en/cookies-policy.html">Cookies</a> · <a href="/en/legal-notice.html">Legal notice</a></small>
 </div></footer>
 <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
