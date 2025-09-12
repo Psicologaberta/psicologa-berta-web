@@ -15,23 +15,9 @@
   <meta property="og:url" content="https://psicologabertapad.netlify.app/en/">
   <meta property="og:image" content="https://psicologabertapad.netlify.app/hero-terapia.jpg">
   <link rel="stylesheet" href="/style.css">
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"Person",
-    "name":"Berta Permuy Arechaga",
-    "jobTitle":"Health Psychologist",
-    "knowsLanguage":["English","Spanish"],
-    "telephone":"+34 649 887 136",
-    "email":"mailto:bertapermuy.psicologa@gmail.com",
-    "image":"https://psicologabertapad.netlify.app/berta-perfil.jpg",
-    "url":"https://psicologabertapad.netlify.app/en/",
-    "address":{"@type":"PostalAddress","streetAddress":"Máximo Aguirre 16","addressLocality":"Getxo","postalCode":"48930","addressRegion":"Bizkaia","addressCountry":"ES"},
-    "sameAs":["https://www.instagram.com/psicologaberta/","https://www.facebook.com/psicologaberta","https://www.linkedin.com/in/bertapermuyarechaga/"]
-  }
-  </script>
 </head>
 <body>
+
 <header class="site-header">
   <div class="container">
     <div class="brand">
@@ -52,21 +38,23 @@
   <img src="/berta-perfil.jpg" alt="Berta Permuy, psychologist" class="perfil">
   <div>
     <h1>Bilingual therapy (EN/ES) for adults, teens and families</h1>
-    <p>I'm <strong>Berta Permuy</strong>, a health psychologist with 20+ years of experience. I support processes related to anxiety, stress, grief and professional <strong>burnout</strong>, both online and in person in Getxo.</p>
+    <p>I’m <strong>Berta Permuy</strong>, a health psychologist with 20+ years of experience. I support processes related to anxiety, stress, grief and professional <strong>burnout</strong>, both online and in person in Getxo.</p>
   </div>
 </section>
 
-<section class="services">
-  <h2>Services & fees</h2>
+<section class="section">
+  <h2>Services & <span style="white-space:nowrap">fees</span></h2>
+  <!-- ⚠️ Match prices with the Spanish page -->
   <ul class="cards">
-    <li><strong>Adult therapy</strong> · €60 / session</li>
-    <li><strong>Child & teen therapy</strong> · €60 / session</li>
-    <li><strong>Psychological assessment</strong> · €90 (3 sessions + report)</li>
-    <li><strong>Therapy in English</strong> · €60 / session</li>
-    <li><strong>Supervision for therapists</strong> · €70 / session</li>
-    <li><strong>Workshops</strong> · from €120 / group session</li>
+    <li><strong>Adult therapy</strong> · <b>XX €</b> / session</li>
+    <li><strong>Child & teen therapy</strong> · <b>XX €</b> / session</li>
+    <li><strong>Psychological assessment</strong> · <b>XX €</b> (3 sessions + report)</li>
+    <li><strong>Therapy in English</strong> · <b>XX €</b> / session</li>
+    <li><strong>Supervision for therapists</strong> · <b>XX €</b> / session</li>
+    <li><strong>Workshops</strong> · from <b>XX €</b> / group session</li>
   </ul>
-  <p class="bonos"><em>Bundles:</em> 3 sessions €170 · 5 sessions €270</p>
+  <p class="center"><em>Bundles:</em> <b>3 sessions: XX €</b> · <b>5 sessions: XX €</b></p>
+  <!-- ⚠️ END prices -->
 </section>
 
 <section class="block">
@@ -83,9 +71,9 @@
   </div>
 </section>
 
-<section class="resources">
+<section class="section">
   <h2>Free resources</h2>
-  <p><a class="btn" href="/guia-5-claves-colapso.pdf" target="_blank" rel="noopener">📥 5 keys to avoid emotional collapse (ES)</a></p>
+  <p class="center"><a class="btn" href="/guia-5-claves-colapso.pdf" target="_blank" rel="noopener">📥 5 keys to avoid emotional collapse (ES)</a></p>
 </section>
 
 <section id="contact" class="contacto">
@@ -104,11 +92,14 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <small>© <span id="year"></span> Psychologist Berta Permuy · <a href="/">Spanish site</a></small>
+    <small>© <span id="year"></span> Psychologist Berta Permuy ·
+      <a href="/en/privacy-policy.html">Privacy</a> ·
+      <a href="/en/cookies-policy.html">Cookies</a> ·
+      <a href="/en/legal-notice.html">Legal notice</a>
+    </small>
   </div>
 </footer>
 
-<!-- Hidden forms (build detection) -->
 <form name="contact" method="POST" data-netlify="true" hidden>
   <input type="text" name="name"><input type="email" name="email"><textarea name="message"></textarea>
 </form>
